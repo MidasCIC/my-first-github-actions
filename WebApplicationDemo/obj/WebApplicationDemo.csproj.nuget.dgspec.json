@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gary/Sync/demo/github-actions-dotnet-k8s/WebApplicationDemo/WebApplicationDemo.csproj": {}
+  },
+  "projects": {
+    "/Users/gary/Sync/demo/github-actions-dotnet-k8s/WebApplicationDemo/WebApplicationDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gary/Sync/demo/github-actions-dotnet-k8s/WebApplicationDemo/WebApplicationDemo.csproj",
+        "projectName": "WebApplicationDemo",
+        "projectPath": "/Users/gary/Sync/demo/github-actions-dotnet-k8s/WebApplicationDemo/WebApplicationDemo.csproj",
+        "packagesPath": "/Users/gary/.nuget/packages/",
+        "outputPath": "/Users/gary/Sync/demo/github-actions-dotnet-k8s/WebApplicationDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gary/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
