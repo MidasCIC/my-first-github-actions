@@ -8,10 +8,10 @@ jobs:
 
   steps: 
     - uses: actions/checkout@v4
-    with:
-    # Repository name with owner. For example, actions/checkout
-    # Default: ${{ github.repository }}
-    repository: 'my-first-github-actions'
+      with:
+      # Repository name with owner. For example, actions/checkout
+      # Default: ${{ github.repository }}
+      repository: 'my-first-github-actions'
             
     - name: Run a one-line script 
       run: echo Hello, world! 
