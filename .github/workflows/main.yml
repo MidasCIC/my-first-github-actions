@@ -6,12 +6,8 @@ jobs:
   build: 
     runs-on: ubuntu-latest 
 
-  steps: 
-    - uses: actions/checkout@v4
-      with:
-      # Repository name with owner. For example, actions/checkout
-      # Default: ${{ github.repository }}
-      repository: 'my-first-github-actions'
+    steps:
+      - uses: actions/checkout@v4
             
-    - name: Run a one-line script 
-      run: echo Hello, world! 
+      - name: Run a one-line script 
+        run: echo Hello, world! 
